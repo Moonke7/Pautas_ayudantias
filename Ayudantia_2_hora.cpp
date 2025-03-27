@@ -56,5 +56,6 @@ int main()
     nuevosminutos = hh * 60 + mm + delta;
     nuevosminutos = nuevosminutos % 1440;
     cout << "son las  " << nuevosminutos / 60 << ":" << nuevosminutos % 60 << endl;
-    return 0;
+    return 0; 
+    
 }
