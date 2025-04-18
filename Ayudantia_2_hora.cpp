@@ -57,5 +57,4 @@ int main()
     nuevosminutos = nuevosminutos % 1440;
     cout << "son las  " << nuevosminutos / 60 << ":" << nuevosminutos % 60 << endl;
     return 0; 
-    
 }
